@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Title-section {
+    font-weight: bold;
+}
+
+.About-section {
+  color: white;
+  font-size: calc(5px + 2vmin);
+}
+
+.Contact-info {
+  color: white;
+  font-size: calc(3px + 2vmin);
+}
+
+.App-link {
+  color: #4F758B;
+  font-size: calc(3px + 2vmin);
+}
