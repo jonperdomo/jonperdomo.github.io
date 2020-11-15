@@ -6,13 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
       <p>
-        Jonathan Elliot Perdomo
+        <u>Jonathan Elliot Perdomo</u>
         </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="About-section">
-        I am a current PhD student at Drexel University in the Biomedical Sciences program, where I study motor control in Drosophila. Previously, I worked at SonoVol, Inc. developing an automated software platform for 3D ultrasound acquisitions. My research interests are in systems neuroscience, as well as in graph theory and shape analysis.
-        </p>
-
+        <div class="image">
+            <p className="About-section">
+            <img src={logo} className="App-logo" alt="logo" />
+            I am a current PhD student at Drexel University in the Biomedical Sciences program, where I study motor control in Drosophila. Previously, I worked at SonoVol, Inc. developing an automated software platform for 3D ultrasound acquisitions. My research interests are in systems neuroscience, as well as in graph theory and shape analysis.
+            </p>
+        </div>
         <p className="Contact-info">
             <b>Publications</b><br/>
             See <a

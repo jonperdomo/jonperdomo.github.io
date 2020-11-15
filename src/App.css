@@ -23,8 +23,10 @@
 }
 
 .About-section {
-  color: white;
-  font-size: calc(5px + 2vmin);
+    /* background-color: green; */
+    color: white;
+    font-size: calc(5px + 2vmin);
+    text-align: left;
 }
 
 .Contact-info {
@@ -35,4 +37,14 @@
 .App-link {
   color: #4F758B;
   font-size: calc(3px + 2vmin);
+}
+
+.image {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+img {
+    padding-right: 3rem;
+    float: left;
 }
