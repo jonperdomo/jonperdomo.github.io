@@ -40,11 +40,11 @@
 }
 
 .image {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
 }
 
 img {
-    padding-right: 2rem;
+    padding-right: 3vmin;
     float: left;
 }
