@@ -11,7 +11,7 @@ function App() {
         <div class="image">
             <p className="About-section">
             <img src={logo} className="App-logo" alt="logo" />
-            I am a PhD student at Drexel University studying motor control in Drosophila. I received my undergraduate at UNC-Chapel Hill and later worked at SonoVol, Inc. developing an automated software platform for 3D ultrasound acquisitions. My research focuses on developing computational tools for bioinformatics/genomics.
+            I am a PhD student at Drexel University currently developing computational tools for bioinformatics/genomics. I studied biology and computer science at UNC-Chapel Hill and later worked 3 years at SonoVol, Inc., a preclinical ultrasound imaging company.
             </p>
         </div>
         <p className="Contact-info">
