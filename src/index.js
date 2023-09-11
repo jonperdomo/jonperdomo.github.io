@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// // Read the contents of the about.txt file
+// var fs = require('fs');
+// var aboutText = fs.readFileSync('about.txt', 'utf8');
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

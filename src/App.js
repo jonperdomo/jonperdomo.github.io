@@ -1,6 +1,9 @@
 import logo from './main.jpg';
 import './App.css';
 
+// Create the about text variable
+var aboutText = "I am a PhD candidate at Drexel University School of Biomedical Engineering. I am advised by Dr. Kai Wang at the Children's Hospital of Philadelphia. I work on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer)."
+
 function App() {
   return (
     <div className="App">
@@ -11,12 +14,23 @@ function App() {
         <div class="image">
             <p className="About-section">
             <img src={logo} className="App-logo" alt="logo" />
-            I am a PhD student at Drexel University School of Biomedical Engineering developing computational tools for human genome analysis at the Children's Hospital of Philadelphia. I completed undergraduate studies at UNC-Chapel Hill and also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer).
+            {aboutText}
             </p>
         </div>
-        <p className="Contact-info">
-            <b>Publications</b><br/>
-            See <a
+
+        <p className="Personal-info">
+            <b>Software and Publications</b><br/>
+            GitHub Profile: <a
+              className="App-link"
+              href="https://github.com/jonperdomo"
+              target="_blank"
+              rel="noopener noreferrer"
+                >
+              jonperdomo
+            </a>
+            <br/>
+
+            Publications: <a
               className="App-link"
               href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=CJ1ahuoAAAAJ"
               target="_blank"
@@ -26,7 +40,7 @@ function App() {
             </a>
         </p>
 
-        <p className="Contact-info">
+        <p className="Personal-info">
             <b>Contact info</b><br/>
 
             Email: <a
@@ -38,16 +52,6 @@ function App() {
               jep353@drexel.edu
             </a>
             <br/>
-
-            GitHub: <a
-              className="App-link"
-              href="https://github.com/jonperdomo"
-              target="_blank"
-              rel="noopener noreferrer"
-                >
-              jonperdomo
-            </a><br/>
-
 
             Twitter: <a
               className="App-link"
