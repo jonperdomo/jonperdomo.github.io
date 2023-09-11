@@ -11,7 +11,7 @@ function App() {
         <div class="image">
             <p className="About-section">
             <img src={logo} className="App-logo" alt="logo" />
-            I am a PhD student at Drexel University developing computational tools for bioinformatics/genomics. I studied biology and computer science at UNC-Chapel Hill and later worked 3 years at SonoVol, Inc., a preclinical ultrasound imaging company.
+            I am a PhD student at Drexel University School of Biomedical Engineering developing computational tools for human genome analysis at the Children's Hospital of Philadelphia. I completed undergraduate studies at UNC-Chapel Hill and also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer).
             </p>
         </div>
         <p className="Contact-info">
