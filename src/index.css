@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Define the grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #fff;
+  padding: 0px;
+}
+
+/* Define the grid item styling */
+.grid-item {
+  background-color: #282c34;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Define grid items that will span two columns */
+.grid-item--width2 {
+  grid-column-end: span 2;
+}

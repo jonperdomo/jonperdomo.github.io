@@ -1,8 +1,9 @@
 import logo from './main.jpg';
+import Widget from './Widget';
 import './App.css';
 
 // Create the about text variable
-var aboutText = "I am a PhD candidate at Drexel University School of Biomedical Engineering. I am advised by Dr. Kai Wang at the Children's Hospital of Philadelphia. I work on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer)."
+var aboutText = "I am a PhD candidate at Drexel University School of Biomedical Engineering. I am advised by Dr. Kai Wang at the Children's Hospital of Philadelphia and co-advised by Dr. Ming Xiao at Drexel. I work on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer)."
 
 function App() {
   return (
@@ -11,15 +12,15 @@ function App() {
       <p>
         <u>Jonathan Elliot Perdomo</u>
         </p>
-        <div class="image">
-            <p className="About-section">
+        <div className="About-section">
+            <p>
             <img src={logo} className="App-logo" alt="logo" />
             {aboutText}
             </p>
         </div>
 
         <p className="Personal-info">
-            <b>Software and Publications</b><br/>
+            <u>Software and Publications</u><br/>
             GitHub Profile: <a
               className="App-link"
               href="https://github.com/jonperdomo"
@@ -41,7 +42,7 @@ function App() {
         </p>
 
         <p className="Personal-info">
-            <b>Contact info</b><br/>
+            <u>Contact info</u><br/>
 
             Email: <a
               className="App-link"
@@ -62,6 +63,7 @@ function App() {
               @jep353
             </a>
         </p>
+        <Widget />
       </header>
     </div>
   );

@@ -4,15 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// // Read the contents of the about.txt file
-// var fs = require('fs');
-// var aboutText = fs.readFileSync('about.txt', 'utf8');
-
+// Render the App component in the DOM
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('grid-item-1')
 );
 
 // If you want to start measuring performance in your app, pass a function
