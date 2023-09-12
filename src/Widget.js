@@ -17,6 +17,7 @@ const Widget = () => {
     camera.position.z = 2;
 
     const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x282c34);  // dark grey
 
     const boxWidth = 1;
     const boxHeight = 1;
