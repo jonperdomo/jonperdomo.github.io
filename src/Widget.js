@@ -22,7 +22,15 @@ const Widget = () => {
     const boxWidth = 1;
     const boxHeight = 1;
     const boxDepth = 1;
-    const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+    //const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+
+    // Create a torus
+    const radiusTorus = .8;
+    const tubeRadius = 0.4;
+    const radialSegments = 12;
+    const tubularSegments = 24;
+    const geometry = new THREE.TorusGeometry(
+      radiusTorus, tubeRadius, radialSegments, tubularSegments);
 
     const cubes = []; // just an array we can use to rotate the cubes
 
@@ -55,8 +63,7 @@ const Widget = () => {
       }
 
       cubes.forEach((cube, ndx) => {
-        const speed = 1 + ndx * 0.1;
-        const rot = time * speed;
+        const rot = time * 0.3;
         cube.rotation.x = rot;
         cube.rotation.y = rot;
       });
