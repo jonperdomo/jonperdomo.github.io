@@ -26,19 +26,13 @@ const Widget = () => {
 
     const cubes = []; // just an array we can use to rotate the cubes
 
-    // Create a basic green material
-    const material1 = new THREE.MeshBasicMaterial({ color: 0x44aa88 });
+    // Create a basic white material
+    const material = new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true });
 
-    // Create a basic blue material
-    const material2 = new THREE.MeshBasicMaterial({ color: 0x0007FAE });
-
-    // Create two textured cubes
-    const cube1 = new THREE.Mesh(geometry, material1);
-    const cube2 = new THREE.Mesh(geometry, material2);
+    // Create cubes
+    const cube1 = new THREE.Mesh(geometry, material);
     scene.add(cube1);
-    scene.add(cube2);
     cubes.push(cube1);
-    cubes.push(cube2);
 
     function resizeRendererToDisplaySize(renderer) {
       const canvas = renderer.domElement;
