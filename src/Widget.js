@@ -25,7 +25,7 @@ const Widget = () => {
     //const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
 
     // Create a torus
-    const radiusTorus = .8;
+    const radiusTorus = .7;
     const tubeRadius = 0.4;
     const radialSegments = 12;
     const tubularSegments = 24;
@@ -35,7 +35,7 @@ const Widget = () => {
     const cubes = []; // just an array we can use to rotate the cubes
 
     // Create a basic white material
-    const material = new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true });
+    const material = new THREE.MeshBasicMaterial({ color: 0x4F758B, wireframe: true });
 
     // Create cubes
     const cube1 = new THREE.Mesh(geometry, material);
