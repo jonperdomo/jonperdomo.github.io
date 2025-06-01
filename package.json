@@ -2,19 +2,9 @@
   "homepage": "https://jonperdomo.github.io",
   "name": "jonperdomo",
   "version": "0.1.0",
+  "description": "Personal website of J. Perdomo, Ph.D.",
+  "author": "J. Perdomo, Ph.D.",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.1.2",
-    "@testing-library/user-event": "^12.2.2",
-    "@types/three": "^0.156.0",
-    "gh-pages": "^3.1.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
-    "three": "^0.156.1",
-    "web-vitals": "^0.2.4"
-  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
@@ -22,6 +12,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@types/three": "^0.156.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   },
   "eslintConfig": {
     "extends": [

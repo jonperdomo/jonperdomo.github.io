@@ -3,7 +3,7 @@ import Widget from './Widget';
 import './App.css';
 
 // Create the about text variable
-var aboutText = "I am a PhD candidate at Drexel University School of Biomedical Engineering. I am advised by Dr. Kai Wang at the Children's Hospital of Philadelphia and co-advised by Dr. Ming Xiao at Drexel. I work on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer)."
+var aboutText = "I am a PhD graduate in Biomedical Science from Drexel University. I was advised by Dr. Kai Wang at the Children's Hospital of Philadelphia and co-advised by Dr. Ming Xiao at Drexel. My research focused on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer).";
 
 function App() {
   return (
@@ -54,14 +54,15 @@ function App() {
             </a>
             <br/>
 
-            Twitter: <a
+            LinkedIn: <a
               className="App-link"
-              href="https://twitter.com/jep353"
+              href="https://www.linkedin.com/in/jonperdomo/"
               target="_blank"
               rel="noopener noreferrer"
                 >
-              @jep353
+              jonperdomo
             </a>
+            <br/>
         </p>
         <Widget />
       </header>
