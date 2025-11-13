@@ -46,11 +46,11 @@ function App() {
 
             Email: <a
               className="App-link"
-              href="mailto:jep353@drexel.edu"
+              href="mailto:jep386@pitt.edu"
               target="_blank"
               rel="noopener noreferrer"
                 >
-              jep353@drexel.edu
+              jep386@pitt.edu
             </a>
             <br/>
 
