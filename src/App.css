@@ -20,7 +20,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(3px + 2vmin);
   color: #282c34;
 }
 
@@ -31,29 +30,27 @@
 .About-section {
     /* background-color: green; */
     color: #282c34;
-    font-size: calc(3px + 2vmin);
     text-align: left;
-    line-height: 1.7;
-    max-width: 500px;
+    max-width: 800px;    /* limit max width for readability */
+    width: 90%;             /* allow shrinking on small screens */
+    padding: 0 1rem;        /* add horizontal padding for phones */
+    box-sizing: border-box; /* ensures padding doesn't overflow */
 }
 
 .Personal-info {
   color: #282c34;
-  font-size: calc(3px + 2vmin);
   align-items: center;
   text-align: center;
 }
 
 .Contact-info {
   color: #282c34;
-  font-size: calc(3px + 2vmin);
   align-items: center;
   text-align: center;
 }
 
 .App-link {
   color: #4F758B;
-  font-size: calc(3px + 2vmin);
   align-items: center;
   text-align: center;
 }
@@ -66,4 +63,10 @@
 img {
     padding-right: 3vmin;
     float: left;
+}
+
+/* Set font size everywhere */
+body {
+    font-size: 16px;
+    line-height: 1.7;
 }
