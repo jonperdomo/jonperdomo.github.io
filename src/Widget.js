@@ -17,7 +17,9 @@ const Widget = () => {
     camera.position.z = 2;
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x282c34);  // dark grey
+    // scene.background = new THREE.Color(0x282c34);  // dark grey
+    // White background
+    scene.background = new THREE.Color(0xffffff);  // white
 
     const boxWidth = 1;
     const boxHeight = 1;
@@ -35,7 +37,11 @@ const Widget = () => {
     const cubes = []; // just an array we can use to rotate the cubes
 
     // Create a basic white material
-    const material = new THREE.MeshBasicMaterial({ color: 0x4F758B, wireframe: true });
+    // const material = new THREE.MeshBasicMaterial({ color: 0x4F758B, wireframe: true });
+    // lighter blue material
+    // const material = new THREE.MeshBasicMaterial({ color: 0x7AAED6, wireframe: true });
+    // very light blue
+    const material = new THREE.MeshBasicMaterial({ color: 0xB3D1E8, wireframe: true });
 
     // Create cubes
     const cube1 = new THREE.Mesh(geometry, material);

@@ -1,5 +1,9 @@
 # My personal website
 
+### Dependencies
+- Node.js (20) and npm (installed via `https://nodejs.org/`)
+- react-scripts (installed via `npm install`)
+
 ### Branches
 - `main`
   - The deployed website 

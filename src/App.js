@@ -3,7 +3,7 @@ import Widget from './Widget';
 import './App.css';
 
 // Create the about text variable
-var aboutText = "I am a PhD graduate in Biomedical Science from Drexel University. I was advised by Dr. Kai Wang at the Children's Hospital of Philadelphia and co-advised by Dr. Ming Xiao at Drexel. My research focused on developing computational tools for human genome analysis. I received my B.A. in Biology with a minor in Computer Science from UNC-Chapel Hill in 2015. I also have previous experience in preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer).";
+var aboutText = "Post-doctoral researcher at the University of Pittsburgh in the Department of Biomedical Informatics. I completed my Ph.D. in Biomedical Science from Drexel University, advised by Dr. Kai Wang at the Children's Hospital of Philadelphia, supported by an NIH NRSA F31 fellowship. My research focuses on developing computational tools for human genome analysis. As an undergraduate at UNC-Chapel Hill, I obtained a B.A. in Biology and a minor in Computer Science. Previous experience includes preclinical ultrasound imaging research at SonoVol, Inc. (now part of PerkinElmer).";
 
 function App() {
   return (
